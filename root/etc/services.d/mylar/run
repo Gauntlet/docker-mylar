@@ -1,7 +1,7 @@
 #!/usr/bin/with-contenv bash
 
 exec \
-	pip3 install -r requirements.txt
+	pip3 install -r /app/mylar/requirements.txt
 
 exec \
 	s6-setuidgid abc python3 /app/mylar/Mylar.py --quiet --nolaunch \
