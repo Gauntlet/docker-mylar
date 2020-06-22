@@ -11,7 +11,7 @@ RUN \
  echo "**** install system packages ****" && \
  apk add --no-cache \
  	python3 \
-	py3-pip
+	py3-pip \
 	git \
 	nodejs && \
  echo "**** install pip packages ****" && \
